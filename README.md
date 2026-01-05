@@ -1,136 +1,116 @@
 # College-enquiry-Chatbot
 Our College Enquiry Chatbot is a smart virtual assistant that offers real-time support to students and parents by answering college-related queries instantly. Available 24/7, it ensures quick access to accurate information about admissions, academics, facilities, and campus life.
-Below is a **professional GitHub README** for your **EV Rental Website using Django**.
-You can directly **copy–paste** this into your `README.md` file.
+ducational purposes** only.
+# 🎓 College Enquiry Chatbot
 
+A smart **College Enquiry Chatbot** designed to provide instant and accurate information to students regarding college admissions, courses, fees, placements, departments, and facilities. This chatbot reduces manual workload and improves user experience by offering 24/7 automated responses.
 
- 🚗⚡ EV Rental Website using Django
+---
 
-An **Electric Vehicle (EV) Rental Web Application** built with **Django** that allows users to browse, book, and rent electric vehicles online. The platform promotes eco-friendly transportation while providing a smooth and secure rental experience.
+## 🚀 Features
 
+* 🤖 AI-powered chatbot for student queries
+* 📚 Information about courses, departments, and syllabus
+* 📝 Admission process & eligibility details
+* 💰 Fee structure and scholarship information
+* 🏫 Campus facilities & infrastructure details
+* 📊 Placement and career guidance support
+* ⏰ 24/7 availability
 
+---
 
- 📌 Project Overview
+## 🛠️ Technologies Used
 
-The EV Rental Website is designed to digitize the vehicle rental process. Users can register, explore available electric vehicles, check pricing, and make bookings. Administrators can manage vehicles, users, and bookings through a powerful admin dashboard.
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** Python /  Flask
+* **Database:** MySQL / SQLite
+* **AI/NLP:** Dialogflow / Rule-based Logic 
 
-This project is ideal for **college projects, final-year projects, and portfolio showcase**.
+---
 
-
- ✨ Features
-
-👤 User Features
-
-* User registration & login
-* View available EVs with details
-* Check rental prices and availability
-* Book EVs online
-* View booking history
-
-🔐 Admin Features
-
-* Admin dashboard
-* Add, update, and delete EV listings
-* Manage users and bookings
-* Monitor rental activity
-
-
-
-## 🛠️ Technology Stack
-
-* **Backend:** Django (Python)
-* **Frontend:** HTML, CSS, Bootstrap, JavaScript
-* **Database:** SQLite / MySQL
-* **Authentication:** Django Authentication System
-
-
-📂 Project Structure
+## 📂 Project Structure
 
 ```
-EV-Rental-Website/
+College-Enquiry-Chatbot/
 │
-├── ev_rental/
-│   ├── settings.py
-│   ├── urls.py
-│
-├── rentals/
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│
-├── templates/
 ├── static/
-├── db.sqlite3
-├── manage.py
-└── README.md
+├── templates/
+├── chatbot/
+├── database/
+├── README.md
+└── app.py / manage.py
 ```
 
+---
 
-🚀 Installation & Setup
+## ⚙️ Installation & Setup
 
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/your-username/ev-rental-website.git
-   ```
-
-2. **Navigate to project folder**
+1. Clone the repository
 
    ```bash
-   cd ev-rental-website
+   git clone https://github.com/your-username/college-enquiry-chatbot.git
    ```
 
-3. **Create virtual environment**
+2. Navigate to the project directory
 
    ```bash
-   python -m venv venv
-   source venv/bin/activate
+   cd college-enquiry-chatbot
    ```
 
-4. **Install dependencies**
+3. Install dependencies
 
    ```bash
    pip install -r requirements.txt
    ```
 
-5. **Run migrations**
+4. Run the application
 
    ```bash
-   python manage.py migrate
+   python app.py
    ```
 
-6. **Start the server**
+   or
 
    ```bash
    python manage.py runserver
    ```
 
-7. **Open browser**
+---
 
-   ```
-   http://127.0.0.1:8000/
-   ```
+## 📌 Use Case
+
+* Students seeking college-related information
+* Admission offices for reducing repetitive queries
+* Educational institutions for digital assistance
 
 ---
 
+## 📈 Future Enhancements
 
-## 🎯 Future Enhancements
-
-* Online payment gateway integration
-* Location-based EV search
-* Mobile-friendly UI
-* User reviews and ratings
-* Email & SMS booking notifications
+* Voice-based chatbot integration
+* WhatsApp & Telegram bot support
+* Admin dashboard for data updates
+* Multi-language support
 
 ---
 
-## 👨‍💻 Developed By
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
 
 **Aayush Maurya**
 
 
+---
 
-
-## 📜 License
-
-This project is for **educational purposes** only.
